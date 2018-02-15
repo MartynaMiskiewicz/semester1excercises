@@ -17,3 +17,8 @@ def fib(n):
 x = 14
 ans = fib(x)
 print("Fibonacci number", x, "is", ans)
+
+# My name is Martyna
+# M equals 13
+# A eqquals 1
+# Fibonacci number 14 is 377
