@@ -25,3 +25,9 @@ print("My surname is", name)
 print("The first letter", first, "is number", firstno)
 print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
+
+# My surname is Miskiewicz The first letter M is number 77 and the last letter z is number 122. 
+# Then Fibonacci number 199 is 173402521172797813159685037284371942044301
+
+# From what I understand, ord() converts a letter/character (M) (one string character) to a number/value (77). 
+# This can be taken from a table called ASCII, which contains a list of characters that represent its values and vice versa chr().
