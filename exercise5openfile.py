@@ -3,5 +3,5 @@
 
 with open("data/iris.csv") as f:  # this line opens the file from forlder called data
   for line in f:
-   column = (line.split(',')[:4]) # this opens the first 4 columns 
+   column = (line.split(',')[:4]) # this opens the first 4 columns, however it does not print it perfectly. They contain unwated characters which I am not sure how to eliminate 
    print(column)
